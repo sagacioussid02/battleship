@@ -1,0 +1,15 @@
+.ready-btn {
+  padding: 10px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  background: #43a047;
+  color: #fff;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.ready-btn:disabled {
+  background: #bdbdbd;
+  cursor: not-allowed;
+}
